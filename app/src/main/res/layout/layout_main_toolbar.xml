@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<HorizontalScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_toolbar"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toEndOf="@id/navigation_button"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:scrollbars="none"
+    android:layout_marginStart="@dimen/size_50dp"
+    android:layout_marginEnd="@dimen/size_50dp">
+    <LinearLayout
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="horizontal"
+        android:background="@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_50dp">
+
+        <TextView
+            android:paddingHorizontal="10dp"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:text="@string/business"
+            style="@style/NormalText.ToolbarTitle" />
+
+        <TextView
+            android:paddingHorizontal="10dp"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:text="@string/entertainment"
+            style="@style/NormalText.ToolbarTitle" />
+
+        <TextView
+            android:paddingHorizontal="10dp"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:text="General"
+            style="@style/NormalText.ToolbarTitle" />
+
+        <TextView
+            android:paddingHorizontal="10dp"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:text="Health"
+            style="@style/NormalText.ToolbarTitle" />
+
+        <TextView
+            android:paddingHorizontal="10dp"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:text="Science"
+            style="@style/NormalText.ToolbarTitle" />
+
+        <TextView
+            android:paddingHorizontal="10dp"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:text="Sports"
+            style="@style/NormalText.ToolbarTitle" />
+    </LinearLayout>
+</HorizontalScrollView>
